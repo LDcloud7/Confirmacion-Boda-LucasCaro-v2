@@ -1,0 +1,15 @@
+{
+  "name": "boda-lucas-caro",
+  "version": "1.0.0",
+  "main": "api/confirm.js",
+  "scripts": {
+    "start": "node api/confirm.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14",
+    "express": "^4.18.2"
+  }
+}

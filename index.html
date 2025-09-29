@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmación de Invitados</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Confirmación de Invitados</h1>
+    <form id="confirmForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label>
+        <input type="checkbox" id="asistencia" name="asistencia">
+        Confirmo mi asistencia
+      </label>
+
+      <button type="submit">Confirmar</button>
+    </form>
+
+    <p id="mensaje"></p>
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
